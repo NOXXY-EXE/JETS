@@ -1855,7 +1855,7 @@ def result():
                     lol.update({str(cih):str(isi)})
                     print(' '+str(cih)+'. '+isi+'\033[31m '+str(len(hem))+' \033[0m CP '+x)
             print('\033[0;91m==================')
-            geeh = input(' \033[95;1m[\033[95;1m•\033[95;1m] 𝗖𝗛𝗢𝗢𝗦𝗘 : ')
+            geeh = input(' \033[95;1m[\033[95;1m•\033[95;1m] 𝗖𝗛𝗢𝗢𝗦𝗘 ')
             print('\033[0;91m==================')
             try:geh = lol[geeh]
             except KeyError:
